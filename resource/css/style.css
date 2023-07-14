@@ -124,8 +124,8 @@
     background-image: url('../image/team.png');
 }
 
-#find-different-color .game__image:after {
-    /*background-image: url('./../img/index/find-different-color.png');*/
+#location .game__image:after {
+    background-image: url('../image/map.png');
 }
 
 #card-matching .game__image:after {

@@ -60,6 +60,11 @@
     background-size: contain;
 }
 
+.menu__nav-life::before {
+    margin-right: 3px;
+    background-image: url('../image/back-arrow.png');
+}
+
 .game {
     display: flex;
     justify-content: center;
