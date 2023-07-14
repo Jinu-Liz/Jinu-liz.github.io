@@ -48,10 +48,6 @@
     transition: opacity 500ms ease-in;
 }
 
-.pointer:hover {
-    cursor: pointer;
-}
-
 #menu {
     display: flex;
     flex-direction: column;

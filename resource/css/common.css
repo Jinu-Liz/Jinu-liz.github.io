@@ -131,6 +131,10 @@ img {
     animation: zoomEffect 500ms 2 alternate;
 }
 
+.pointer:hover {
+    cursor: pointer;
+}
+
 @keyframes zoomEffect {
     to {
         font-size: 18px;
