@@ -41,7 +41,7 @@
     width: 37px;
     height: 37px;
     opacity: 0;
-    background-image: url('../../down-arrow.png');
+    background-image: url('../image/down-arrow.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -121,7 +121,7 @@
 }
 
 #member-introduce .game__image:after {
-    background-image: url('../../team.png');
+    background-image: url('../image/team.png');
 }
 
 #find-different-color .game__image:after {
