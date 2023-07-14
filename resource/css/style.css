@@ -41,18 +41,18 @@
     width: 37px;
     height: 37px;
     opacity: 0;
-    background-image: url('../image/down-arrow.png');
+    background-image: url('../../down-arrow.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
     transition: opacity 500ms ease-in;
 }
 
-.intro__button:hover {
+.pointer:hover {
     cursor: pointer;
 }
 
-#game {
+#menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,23 +121,23 @@
 }
 
 #member-introduce .game__image:after {
-    background-image: url('../image/team.png');
+    background-image: url('../../team.png');
 }
 
 #find-different-color .game__image:after {
-    background-image: url('./../img/index/find-different-color.png');
+    /*background-image: url('./../img/index/find-different-color.png');*/
 }
 
 #card-matching .game__image:after {
-    background-image: url('./../img/index/card-matching.png');
+    /*background-image: url('./../img/index/card-matching.png');*/
 }
 
 #memory-test .game__image:after {
-    background-image: url('./../img/index/memory-test.png');
+    /*background-image: url('./../img/index/memory-test.png');*/
 }
 
 #bulls-and-cows .game__image:after {
-    background-image: url('./../img/index/bulls-and-cows.png');
+    /*background-image: url('./../img/index/bulls-and-cows.png');*/
 }
 
 .game__title {
@@ -170,7 +170,7 @@
         height: 47px;
     }
 
-    #game {
+    #menu {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
@@ -183,6 +183,7 @@
         max-width: 300px;
         min-height: 351px;
         margin-bottom: 150px;
+        border: 1px solid black;
     }
 
     .game__title {
@@ -210,7 +211,7 @@
         height: 57px;
     }
 
-    #game {
+    #menu {
         padding: 200px 50px;
         max-width: 1000px;
     }
