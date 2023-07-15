@@ -1,11 +1,25 @@
-const sliderInner = document.querySelector(".slider__inner");
-const slider = document.querySelectorAll(".slider");
+let memberIdx = 0;
+let slider;
+window.onload = function () {
+  slider = document.querySelectorAll(".game__board");
+}
 
-let currentIndex = 0;
+function moveToPre() {
+  let preIdx = memberIdx - 1;
+  let idx = (preIdx < 0) ? slider.length - 1 : preIdx;
+  changeNode(memberIdx, idx);
+}
 
-sliderInner.style.transition = "all 1.6s";
-setInterval(()=>{
-  currentIndex  = (currentIndex + 1 )% slider.length;
+function moveToNext() {
+  let nextIdx = memberIdx + 1;
+  let idx = (nextIdx > slider.length - 1) ? 0 : nextIdx;
+  changeNode(memberIdx, idx);
+}
 
-  sliderInner.style.transform = "translateX("+ -800 * currentIndex +"px)";
-},2000);
+function changeNode(mIdx, idx) {
+  let nowNode = slider[mIdx];
+  let nextNode = slider[idx];
+  nowNode.style.display = 'none';
+  nextNode.style.display = 'inline-flex';
+  memberIdx = idx;
+}

@@ -9,13 +9,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/common.css">
   <link rel="stylesheet" href="../css/member.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="../script/utils.js"></script>
   <script src="../script/member-introduce.js"></script>
 </head>
 <body>
   <div id="container" class="no-drag">
-    <div class="nav-button left-button pointer" tabindex="0" role="button" aria-label="Previous slide"></div>
+    <div class="nav-button left-button pointer" tabindex="0" role="button" aria-label="Previous slide" onclick="moveToPre();"></div>
     <div class="board">
       <header class="menu">
         <nav class="menu__nav">
@@ -36,9 +35,22 @@
             </div>
           </div>
         </div>
+        <div class="game__board" style="display: none;">
+          <div class="profile__image">
+            <img src="../image/member/hsyoon.jpg" style="" alt="profile">
+          </div>
+          <div>
+            <div class="name">김 지 누</div>
+            <div>
+              <div class="member__info">라인망가 / 주간연재플랫폼팀</div>
+              <div class="member__info">대리 / 팀원</div>
+              <div class="member__info" style="padding-top: 15px;">라인망가 연재플랫폼 담당</div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
-    <div class="nav-button right-button pointer" style="right: -2.25rem" tabindex="0" role="button" aria-label="Next slide"></div>
+    <div class="nav-button right-button pointer" style="right: -2.25rem" tabindex="0" role="button" aria-label="Next slide" onclick="moveToNext();"></div>
   </div>
 </body>
 </html>
