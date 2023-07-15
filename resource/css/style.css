@@ -82,10 +82,6 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
-.game__wrapper:last-child {
-    margin-bottom: 0;
-}
-
 .game__overlay {
     position: absolute;
     width: 100%;
@@ -208,14 +204,14 @@
     }
 
     #menu {
-        padding: 200px 50px;
+        padding: 70px 50px;
         max-width: 1000px;
     }
 
     .game__wrapper {
         width: 400px;
         max-width: 500px;
-        margin-bottom: 200px;
+        margin-bottom: 45px;
     }
 
     .game__title {

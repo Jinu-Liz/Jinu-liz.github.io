@@ -8,8 +8,37 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/common.css">
-  <link rel="stylesheet" href="../css/location.css">
+  <link rel="stylesheet" href="../css/member.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="../script/member-introduce.js"></script>
 </head>
 <body>
+  <div id="container" class="no-drag">
+    <div class="nav-button left-button pointer" tabindex="0" role="button" aria-label="Previous slide"></div>
+    <div class="board">
+      <header class="menu">
+        <nav class="menu__nav">
+          <div class="menu__nav-life pointer" onclick="backspace();"></div>
+        </nav>
+      </header>
+      <main class="game">
+        <div class="game__board">
+          <div class="profile__image">
+            <img src="../image/member/hsyoon.jpg" style="" alt="profile">
+          </div>
+          <div>
+            <div class="name">윤 형 석</div>
+            <div>
+              <div class="member__info">제조서비스팀 / HR & WEB 파트</div>
+              <div class="member__info">주임 / 팀원</div>
+              <div class="member__info" style="padding-top: 15px;">애경산업 VOC 시스템 담당</div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="nav-button right-button pointer" style="right: -2.25rem" tabindex="0" role="button" aria-label="Next slide"></div>
+  </div>
 </body>
 </html>
