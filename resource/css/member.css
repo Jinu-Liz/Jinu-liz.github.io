@@ -60,6 +60,12 @@
     background-size: contain;
 }
 
+.menu__nav-life::before {
+    margin-right: 3px;
+    background-image: url('../image/back-arrow.png');
+}
+
+
 .name {
     margin-top: 10px;
     text-align: center;
