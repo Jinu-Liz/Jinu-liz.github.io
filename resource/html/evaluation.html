@@ -12,6 +12,7 @@
 </head>
 <body>
   <div id="container" class="no-drag">
+    <div class="nav-button left-button pointer" tabindex="0" role="button" aria-label="Previous slide" onclick="moveToPre();"></div>
     <div class="board">
       <header class="menu">
         <nav class="menu__nav">
@@ -21,10 +22,13 @@
 
       <main class="game">
         <div class="game__board">
-          <div style="background-image: url('../image/photo/img7.jpg'); z-index: 999;"></div>
+          <div>
+            <div class="content" style="font-family: 'cookie-run';">방구석 쩝쩝박사 윤형석</div>
+          </div>
         </div>
       </main>
     </div>
+    <div class="nav-button right-button pointer" style="right: -2.25rem" tabindex="0" role="button" aria-label="Next slide" onclick="moveToNext();"></div>
   </div>
 </body>
 </html>
