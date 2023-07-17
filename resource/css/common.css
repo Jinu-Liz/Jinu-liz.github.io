@@ -55,6 +55,16 @@ img {
     display: block;
 }
 
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    max-width: 646px;
+    height: 100%;
+}
+
 .nav-button {
     transition: all .5s;
     height: 40px;
