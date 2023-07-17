@@ -7,11 +7,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/resource/css/common.css">
-  <link rel="stylesheet" type="text/css" href="/resource/css/location.css">
+  <link rel="stylesheet" type="text/css" href="/resource/css/photo.css">
+  <script src="/resource/script/photo.js"></script>
   <script src="/resource/script/utils.js"></script>
 </head>
 <body>
   <div id="container" class="no-drag">
+    <div class="nav-button left-button pointer" tabindex="0" role="button" aria-label="Previous slide" onclick="moveToPre();"></div>
     <div class="board">
       <header class="menu">
         <nav class="menu__nav">
@@ -20,11 +22,15 @@
       </header>
 
       <main class="game">
-        <div class="game__board">
-          <div style="background-image: url('../image/photo/img7.jpg'); z-index: 999;"></div>
-        </div>
+        <div class="game__board photo_img" style="background-image: url('../image/photo/img7.jpg');"></div>
+        <div class="game__board photo_img" style="background-image: url('../image/photo/img6.jpg'); display: none;"></div>
+        <div class="game__board photo_img" style="background-image: url('../image/photo/img1.jpg'); display: none;"></div>
+        <div class="game__board photo_img" style="background-image: url('../image/photo/img3.jpg'); display: none;"></div>
+        <div class="game__board photo_img" style="background-image: url('../image/photo/img2.jpg'); display: none;"></div>
+        <div class="game__board photo_img" style="background-image: url('../image/photo/img5.jpg'); display: none;"></div>
       </main>
     </div>
+    <div class="nav-button right-button pointer" style="right: -2.25rem" tabindex="0" role="button" aria-label="Next slide" onclick="moveToNext();"></div>
   </div>
 </body>
 </html>
