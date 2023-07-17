@@ -124,8 +124,8 @@
     background-image: url('../image/camera.png');
 }
 
-#memory-test .game__image:after {
-    /*background-image: url('./../img/index/memory-test.png');*/
+#evaluation .game__image:after {
+    background-image: url('../image/star.png');
 }
 
 #bulls-and-cows .game__image:after {
