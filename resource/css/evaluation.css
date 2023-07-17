@@ -55,12 +55,12 @@
     background-image: url('../image/back-arrow.png');
 }
 
-#content {
+.content {
     font-family: 'cookie-run';
     font-size: x-large;
 }
 
-#writer {
+.writer {
     padding-top: 50px;
     font-size: large;
     font-weight: bold;
@@ -117,7 +117,7 @@
     justify-content: center;
 }
 
-#evaluateStar {
+.evaluate_star {
     width: 100%;
     display: flex;
     height: 30%;
