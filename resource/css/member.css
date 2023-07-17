@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 21%;
     max-width: 646px;
     height: 100%;
 }
@@ -69,7 +69,7 @@
 .name {
     margin-top: 10px;
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
 }
 
@@ -78,14 +78,15 @@
     display: flex;
     align-items: center;
     -webkit-box-align: center;
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     border: 2px solid cornflowerblue;
 }
 
 .member__info {
     color: #a79d9d;
     text-align: center;
+    font-size: small;
 }
 
 .game {
