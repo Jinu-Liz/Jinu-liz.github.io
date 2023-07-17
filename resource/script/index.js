@@ -1,6 +1,6 @@
-if (history.scrollRestoration) {
-  window.history.scrollRestoration = "manual";
-}
+// if (history.scrollRestoration) {
+//   window.history.scrollRestoration = "manual";
+// }
 
 const introTitle = document.querySelector("#title");
 const introButton = document.querySelector("#introBtn");
@@ -31,7 +31,7 @@ function typingIntroTitle() {
 
 // 버튼 클릭 시 게임 목록으로 이동
 introButton.addEventListener('click', () => {
-  menu.scrollIntoView({behavior: "smooth"});
+  location.href = '/resource//html/menu.html';
 });
 
 window.onload = function () {

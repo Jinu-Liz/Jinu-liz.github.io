@@ -109,7 +109,7 @@
     border-radius: 5px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: 100px 100px;
     transition: background-image 250ms ease-in;
 }
 
