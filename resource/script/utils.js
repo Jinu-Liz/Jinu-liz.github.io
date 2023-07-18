@@ -15,3 +15,5 @@ AK아이에스 제조서비스팀 HR & WEB파트 윤형석 주임😎
   `
   console.log(conts);
 }
+
+introduceMaker();

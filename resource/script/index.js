@@ -35,6 +35,5 @@ introButton.addEventListener('click', () => {
 });
 
 window.onload = function () {
-  introduceMaker();
   timer = setInterval(typingIntroTitle, 200);
 }
