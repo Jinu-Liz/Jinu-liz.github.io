@@ -133,6 +133,13 @@
     height: 30px;
 }
 
+.half_star {
+    background-image: url(../image/hf-star.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
 .empty_star {
     background-image: url(../image/star.png);
     background-size: cover;
