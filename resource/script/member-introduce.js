@@ -1,6 +1,7 @@
 let memberIdx = 0;
 let slider;
 window.onload = function () {
+  introduceMaker();
   slider = document.querySelectorAll(".game__board");
 }
 
