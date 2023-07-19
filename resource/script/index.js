@@ -7,7 +7,7 @@ const introButton = document.querySelector("#introBtn");
 const menu = document.querySelector("#menu");
 
 // 타이틀 문구 타이핑
-const title = "랜덤런치 13조\n후기\n시작합니다";
+const title = "마포사이트 13조\n랜덤런치 후기\n시작합니다";
 
 let cnt = 0;
 let timer = 0;
