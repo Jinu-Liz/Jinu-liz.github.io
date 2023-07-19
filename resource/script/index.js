@@ -31,7 +31,7 @@ function typingIntroTitle() {
 
 // 버튼 클릭 시 게임 목록으로 이동
 introButton.addEventListener('click', () => {
-  location.href = '/resource//html/menu.html';
+  location.href = '/resource/html/menu.html';
 });
 
 window.onload = function () {
