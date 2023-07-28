@@ -2,18 +2,18 @@
 //   window.history.scrollRestoration = "manual";
 // }
 
-var introTitle = document.querySelector("#title");
-var introButton = document.querySelector("#introBtn");
-var menu = document.querySelector("#menu");
+const introTitle = document.querySelector("#title");
+const introButton = document.querySelector("#introBtn");
+const menu = document.querySelector("#menu");
 
 // 타이틀 문구 타이핑
-var title = "마포사이트 13조\n랜덤런치 후기\n시작합니다";
+const title = "마포사이트 13조\n랜덤런치 후기\n시작합니다";
 
-var cnt = 0;
-var timer = 0;
+let cnt = 0;
+let timer = 0;
 
 function typingIntroTitle() {
-  var character = title[cnt++];
+  let character = title[cnt++];
 
   if (character === "\n") {
     introTitle.innerHTML = introTitle.innerHTML + "<br/>";
