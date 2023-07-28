@@ -1,24 +1,24 @@
-let photoIdx = 0;
-let slider;
+var photoIdx = 0;
+var slider;
 window.onload = function () {
   slider = document.querySelectorAll(".photo_img");
 }
 
 function moveToPre() {
-  let preIdx = photoIdx - 1;
-  let idx = (preIdx < 0) ? slider.length - 1 : preIdx;
+  var preIdx = photoIdx - 1;
+  var idx = (preIdx < 0) ? slider.length - 1 : preIdx;
   changeNode(photoIdx, idx);
 }
 
 function moveToNext() {
-  let nextIdx = photoIdx + 1;
-  let idx = (nextIdx > slider.length - 1) ? 0 : nextIdx;
+  var nextIdx = photoIdx + 1;
+  var idx = (nextIdx > slider.length - 1) ? 0 : nextIdx;
   changeNode(photoIdx, idx);
 }
 
 function changeNode(mIdx, idx) {
-  let nowNode = slider[mIdx];
-  let nextNode = slider[idx];
+  var nowNode = slider[mIdx];
+  var nextNode = slider[idx];
   nowNode.style.display = 'none';
   nextNode.style.display = 'inline-flex';
   photoIdx = idx;
