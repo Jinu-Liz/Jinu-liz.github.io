@@ -2,9 +2,9 @@
 //   window.history.scrollRestoration = "manual";
 // }
 
-var introTitle = document.getElementById("title");
-var introButton = document.getElementById("introBtn");
-var menu = document.getElementById("menu");
+var introTitle = document.querySelector("#title");
+var introButton = document.querySelector("#introBtn");
+var menu = document.querySelector("#menu");
 
 // 타이틀 문구 타이핑
 var title = "마포사이트 13조\n랜덤런치 후기\n시작합니다";
